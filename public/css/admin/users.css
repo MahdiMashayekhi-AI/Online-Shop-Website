@@ -1,0 +1,36 @@
+.sidebar-menu::-webkit-scrollbar {
+    width: 4px;
+}
+.sidebar-menu::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+.sidebar-menu::-webkit-scrollbar-thumb {
+    background: #3b82f6;
+    border-radius: 10px;
+}
+.table-responsive {
+    overflow-x: auto;
+}
+.user-row:hover {
+    background-color: #f3f4f6;
+}
+.status-badge {
+    transition: all 0.3s ease;
+}
+.modal {
+    transition: all 0.3s ease;
+}
+.modal.show {
+    display: flex !important;
+}
+.pagination-btn.active {
+    background-color: #3b82f6;
+    color: white;
+}
+.pagination-btn.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+.avatar {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}

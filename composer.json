@@ -1,0 +1,23 @@
+{
+    "name": "mahdi/online_shop",
+    "description": "A simple project for university - Online Shop Site",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Core\\": "core/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mahdi Mashayekhi",
+            "email": "mahdimashayekhi.ai@gmail.com"
+        }
+    ],
+    "require": {
+      "ext-mbstring": "*",
+      "ext-pdo": "*",
+      "ext-intl": "*",
+      "ext-fileinfo": "*"
+    }
+}
